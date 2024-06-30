@@ -173,6 +173,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              },
               "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
                 "projectPath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }

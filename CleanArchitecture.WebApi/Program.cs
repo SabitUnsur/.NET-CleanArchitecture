@@ -1,8 +1,12 @@
+using CleanArchitecture.Application.Services;
 using CleanArchitecture.Persistance.Context;
+using CleanArchitecture.Persistance.Services;
 using CleanArchitecture.Presentation;
 using Microsoft.EntityFrameworkCore; // Add this using directive
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<ICarService, CarService>();
 
 builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseNpgsql(builder.Configuration.GetConnectionString("SqlConnection"));
