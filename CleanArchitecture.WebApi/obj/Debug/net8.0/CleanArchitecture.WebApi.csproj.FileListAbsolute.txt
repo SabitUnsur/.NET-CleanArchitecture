@@ -109,3 +109,7 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\MediatR.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Application.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Application.pdb

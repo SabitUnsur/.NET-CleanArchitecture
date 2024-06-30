@@ -10,3 +10,7 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\obj\
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\refint\CleanArchitecture.Application.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.pdb
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\ref\CleanArchitecture.Application.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArc.03AFA812.Up2Date

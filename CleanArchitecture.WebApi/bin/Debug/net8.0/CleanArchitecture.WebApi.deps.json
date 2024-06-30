@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "CleanArchitecture.WebApi/1.0.0": {
         "dependencies": {
+          "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Persistance": "1.0.0",
           "CleanArchitecture.Presentation": "1.0.0",
+          "MediatR": "12.3.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.6",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -22,6 +24,26 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MediatR/12.3.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.3.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -681,6 +703,15 @@
       },
       "System.Threading.Channels/6.0.0": {},
       "System.Threading.Tasks.Extensions/4.5.1": {},
+      "CleanArchitecture.Application/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Domain": "1.0.0",
+          "MediatR": "12.3.0"
+        },
+        "runtime": {
+          "CleanArchitecture.Application.dll": {}
+        }
+      },
       "CleanArchitecture.Domain/1.0.0": {
         "runtime": {
           "CleanArchitecture.Domain.dll": {}
@@ -688,6 +719,7 @@
       },
       "CleanArchitecture.Persistance/1.0.0": {
         "dependencies": {
+          "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.Extensions.Configuration": "8.0.0",
@@ -700,6 +732,8 @@
       },
       "CleanArchitecture.Presentation/1.0.0": {
         "dependencies": {
+          "CleanArchitecture.Application": "1.0.0",
+          "MediatR": "12.3.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
@@ -720,6 +754,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MediatR/12.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DuXRw/qux2n7pTRPond4WK9XImO+30TZrGPCeOmjYIXDWokpjZQDFRsdZMoP0WqWU7inC4m0D+Zbu5dSc4z6NQ==",
+      "path": "mediatr/12.3.0",
+      "hashPath": "mediatr.12.3.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
@@ -1203,6 +1251,11 @@
       "sha512": "sha512-WSKUTtLhPR8gllzIWO2x6l4lmAIfbyMAiTlyXAis4QBDonXK4b4S6F8zGARX4/P8wH3DH+sLdhamCiHn+fTU1A==",
       "path": "system.threading.tasks.extensions/4.5.1",
       "hashPath": "system.threading.tasks.extensions.4.5.1.nupkg.sha512"
+    },
+    "CleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "CleanArchitecture.Domain/1.0.0": {
       "type": "project",
