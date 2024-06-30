@@ -1,7 +1,13 @@
-using CleanArchitecture.Presentation; // Add this using directive
+using CleanArchitecture.Persistance.Context;
+using CleanArchitecture.Presentation;
+using Microsoft.EntityFrameworkCore; // Add this using directive
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<AppDbContext>(options => {
+    options.UseNpgsql(builder.Configuration.GetConnectionString("SqlConnection"));
+});
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 // Add services to the container.
 builder.Services.AddControllers()
     .AddApplicationPart(typeof(AssemblyReference).Assembly); 
@@ -9,6 +15,8 @@ builder.Services.AddControllers()
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var app = builder.Build();
 

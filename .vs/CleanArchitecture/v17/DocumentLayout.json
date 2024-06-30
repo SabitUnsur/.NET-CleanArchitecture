@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\migrations\\20240630132845_create_tables_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\migrations\\20240630132845_create_tables_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.presentation\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6625237-9D64-4B86-BA2E-611441FE5601}|CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6625237-9D64-4B86-BA2E-611441FE5601}|CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj|solutionrelative:cleanarchitecture.unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AssemblyReference.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\AssemblyReference.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\AssemblyReference.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\AssemblyReference.cs",
-              "RelativeToolTip": "CleanArchitecture.Presentation\\AssemblyReference.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Title": "20240630132845_create_tables_database.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Migrations\\20240630132845_create_tables_database.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Migrations\\20240630132845_create_tables_database.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Migrations\\20240630132845_create_tables_database.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Migrations\\20240630132845_create_tables_database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:20:22.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:15:38.2Z",
+              "WhenOpened": "2024-06-30T13:28:45.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:08:06.698Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\appsettings.json",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-30T12:00:07.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.UnitTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.UnitTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.UnitTest\\UnitTest1.cs",
-              "RelativeToolTip": "CleanArchitecture.UnitTest\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:05:42.464Z",
+              "WhenOpened": "2024-06-30T11:48:46.242Z",
               "EditorCaption": ""
             }
           ]
