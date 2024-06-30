@@ -10,7 +10,10 @@ builder.Services.AddDbContext<AppDbContext>(options => {
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 // Add services to the container.
 builder.Services.AddControllers()
-    .AddApplicationPart(typeof(AssemblyReference).Assembly); 
+    .AddApplicationPart(typeof(AssemblyReference).Assembly);
+
+//CQRS Uygulanan katmanýn referansý verilmelidir.
+builder.Services.AddMediatR(cfr => cfr.RegisterServicesFromAssembly(typeof(CleanArchitecture.Application.AssemblyReference).Assembly));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
