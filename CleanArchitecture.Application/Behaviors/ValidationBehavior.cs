@@ -38,8 +38,7 @@ namespace CleanArchitecture.Application.Behaviors
 
             if (failures.Any()) 
             {
-                var errorMessage = string.Join("; ", failures.Select(f => f.ErrorMessage));
-                throw new ValidationException(errorMessage);
+                throw new ValidationException(failures);
             }
 
             return await next();

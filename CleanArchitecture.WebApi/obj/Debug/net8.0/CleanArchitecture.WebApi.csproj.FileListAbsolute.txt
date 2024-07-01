@@ -116,3 +116,4 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll

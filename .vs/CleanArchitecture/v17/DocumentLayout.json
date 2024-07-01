@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\features\\carfeatures\\commands\\createcar\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\carfeatures\\commands\\createcar\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\middleware\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middleware\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +26,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ErrorResult.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAvwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T09:41:58.576Z",
+              "WhenOpened": "2024-07-01T10:41:44.067Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +45,22 @@
               "RelativeDocumentMoniker": "CleanArchitecture.Application\\Behaviors\\ValidationBehavior.cs",
               "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Behaviors\\ValidationBehavior.cs",
               "RelativeToolTip": "CleanArchitecture.Application\\Behaviors\\ValidationBehavior.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACYAAAAfAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T09:08:40.119Z",
+              "WhenOpened": "2024-07-01T10:30:41.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateCarCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandValidator.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandValidator.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandValidator.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:58:35.57Z",
+              "WhenOpened": "2024-07-01T10:10:16.584Z",
               "EditorCaption": ""
             }
           ]
