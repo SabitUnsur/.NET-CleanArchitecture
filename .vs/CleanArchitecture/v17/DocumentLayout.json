@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6625237-9D64-4B86-BA2E-611441FE5601}|CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.unittest\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6625237-9D64-4B86-BA2E-611441FE5601}|CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj|solutionrelative:cleanarchitecture.unittest\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\middleware\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middleware\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorResult.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Middleware\\ErrorResult.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAvwBQAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "CarsControllerUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "RelativeToolTip": "CleanArchitecture.UnitTest\\CarsControllerUnitTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T10:41:44.067Z",
+              "WhenOpened": "2024-07-01T11:41:14.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValidationBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Behaviors\\ValidationBehavior.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Behaviors\\ValidationBehavior.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Behaviors\\ValidationBehavior.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Behaviors\\ValidationBehavior.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCcAAAANAAAA",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T10:30:41.126Z",
+              "WhenOpened": "2024-07-01T11:32:21.603Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +58,9 @@
               "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
               "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
               "RelativeToolTip": "CleanArchitecture.WebApi\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBoAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T10:10:16.584Z",
+              "WhenOpened": "2024-07-01T11:17:37.87Z",
               "EditorCaption": ""
             }
           ]

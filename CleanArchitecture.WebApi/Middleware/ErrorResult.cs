@@ -19,7 +19,7 @@ namespace CleanArchitecture.WebApi.Middleware
         //Serialize yapılma sebebi, response olarak json döneceğiz.
     }
 
-    public sealed class ValiationErrorResultDetails : ErrorStatusCode
+    public sealed class ValidationErrorResultDetails : ErrorStatusCode
     {
         public IEnumerable<string> Errors { get; set; } = Enumerable.Empty<string>();
     }

@@ -11,6 +11,7 @@ namespace CleanArchitecture.Application.Behaviors
 {
     //Validation Kurallarını kontrol edip hata mesajlarını döndüren sınıf
     //bu sınıf ne işe yarar? ValidationBehavior sınıfı, MediatR pipeline'ına bir davranış ekler. Bu davranış, bir isteği işlemek için bir işleyici çağrıldığında, isteğin doğrulanmasını sağlar.
+   //her yerde _validators.Any() gibi bir kontrol yapmamak için bu sınıfı oluşturduk.
     public class ValidationBehavior<TRequest,TResponse> : IPipelineBehavior<TRequest,TResponse> 
         where TRequest:class,IRequest<TResponse> //TRequest sınıfı IRequest interface'inden türemiş olmalı
     {
