@@ -1,7 +1,10 @@
+using CleanArchitecture.Application.Behaviors;
 using CleanArchitecture.Application.Services;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Services;
 using CleanArchitecture.Presentation;
+using FluentValidation;
+using MediatR;
 using Microsoft.EntityFrameworkCore; // Add this using directive
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +22,9 @@ builder.Services.AddControllers()
 
 //CQRS Uygulanan katmanýn referansý verilmelidir.
 builder.Services.AddMediatR(cfr => cfr.RegisterServicesFromAssembly(typeof(CleanArchitecture.Application.AssemblyReference).Assembly));
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
+builder.Services.AddValidatorsFromAssembly(typeof(CleanArchitecture.Application.AssemblyReference).Assembly);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
