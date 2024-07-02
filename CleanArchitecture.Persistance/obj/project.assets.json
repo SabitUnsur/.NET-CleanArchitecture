@@ -18,6 +18,18 @@
           }
         }
       },
+      "EntityFrameworkCore.GenericRepository.Nuget/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5"
+        },
+        "compile": {
+          "lib/net7.0/GenericRepository.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/GenericRepository.dll": {}
+        }
+      },
       "FluentValidation/11.9.2": {
         "type": "package",
         "compile": {
@@ -973,6 +985,9 @@
       "CleanArchitecture.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EntityFrameworkCore.GenericRepository.Nuget": "1.0.2"
+        },
         "compile": {
           "bin/placeholder/CleanArchitecture.Domain.dll": {}
         },
@@ -996,6 +1011,20 @@
         "icon.png",
         "lib/net6.0/AutoMapper.dll",
         "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "EntityFrameworkCore.GenericRepository.Nuget/1.0.2": {
+      "sha512": "JlrKF7G25oswewA7qN30H/9RlcWn2EkKsOvjVRpYaS9x6QAoZHQC+yA2yQyIckbU2r/elJdSzako8cD28Z1a5A==",
+      "type": "package",
+      "path": "entityframeworkcore.genericrepository.nuget/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "entityframeworkcore.genericrepository.nuget.1.0.2.nupkg.sha512",
+        "entityframeworkcore.genericrepository.nuget.nuspec",
+        "lib/net7.0/GenericRepository.dll",
+        "maxresdefault.jpg"
       ]
     },
     "FluentValidation/11.9.2": {

@@ -64,7 +64,6 @@ namespace CleanArchitecture.WebApi.Middleware
             await _dbContext.Set<ErrorLog>().AddAsync(errorLog,default);
             await _dbContext.SaveChangesAsync(default);
 
-
         }
     }
 }

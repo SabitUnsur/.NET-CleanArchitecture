@@ -18,9 +18,9 @@ namespace CleanArchitecture.UnitTest
             MessageResponse response = new("Car Created Successfully!");
             CancellationToken cancellationToken = new();
 
-            mediatorMock.Setup(m=>m.Send(createCarCommand,cancellationToken)).ReturnsAsync(response);
+            mediatorMock.Setup(m=>m.Send(createCarCommand,cancellationToken)).ReturnsAsync(response); //handlera gidecek olan deðer ve dönecek deðer tanýmlanýr.
 
-            CarsController  carsController = new(mediatorMock.Object);
+            CarsController carsController = new(mediatorMock.Object);
 
             //Act : Metot çaðrýlýr.
             var result = await carsController.Create(createCarCommand,cancellationToken);
@@ -31,8 +31,8 @@ namespace CleanArchitecture.UnitTest
 
             var returnValue = Assert.IsType<MessageResponse>(OkResult.Value);
 
-            Assert.Equal(response,returnValue);
-            mediatorMock.Verify(m=>m.Send(createCarCommand,cancellationToken),Times.Once);
+            Assert.Equal(response,returnValue); //dönen deðerlerin eþitliði kontrolü
+            mediatorMock.Verify(m=>m.Send(createCarCommand,cancellationToken),Times.Once); //bir kere çaðrýldý mý kontrolü
         }
     }
 }

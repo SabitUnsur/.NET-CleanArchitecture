@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
 using CleanArchitecture.Application.Features.CarFeatures.Commands.CreateCar;
+using CleanArchitecture.Application.Features.CarFeatures.Queries.GetAllCar;
 using CleanArchitecture.Application.Services;
 using CleanArchitecture.Domain.Entities;
+using CleanArchitecture.Domain.Repositories;
 using CleanArchitecture.Persistance.Context;
+using GenericRepository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,15 +17,15 @@ namespace CleanArchitecture.Persistance.Services
 {
     public sealed class CarService : ICarService
     {
-        private readonly AppDbContext _context;
-        private readonly DbSet<Car> _dbSet;
+        private readonly ICarRepository _carRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public CarService(AppDbContext context,IMapper mapper)
+        public CarService(IMapper mapper, IUnitOfWork unitOfWork, ICarRepository carRepository)
         {
-            _context = context;
-            _dbSet = _context.Set<Car>();
             _mapper = mapper;
+            _unitOfWork = unitOfWork;
+            _carRepository = carRepository;
         }
 
         public async Task CreateAsync(CreateCarCommand request, CancellationToken cancellationToken)
@@ -36,10 +39,17 @@ namespace CleanArchitecture.Persistance.Services
 
             Car car = _mapper.Map<Car>(request);
 
-            await _dbSet.AddAsync(car, cancellationToken);
-            await _context.SaveChangesAsync(cancellationToken);
+            await _carRepository.AddAsync(car, cancellationToken);
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
+
+            /*await _dbSet.AddAsync(car, cancellationToken);
+            await _context.SaveChangesAsync(cancellationToken);*/
         }
 
-
+        public async Task<IEnumerable<Car>> GetAllAsync(GetAllCarQuery request, CancellationToken cancellationToken)
+        {
+           IEnumerable<Car> cars = await _carRepository.GetAll().ToListAsync(cancellationToken);
+            return cars;
+        }
     }
 }
