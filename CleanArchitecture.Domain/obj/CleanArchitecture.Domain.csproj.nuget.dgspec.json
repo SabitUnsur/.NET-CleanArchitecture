@@ -53,6 +53,10 @@
             "EntityFrameworkCore.GenericRepository.Nuget": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
