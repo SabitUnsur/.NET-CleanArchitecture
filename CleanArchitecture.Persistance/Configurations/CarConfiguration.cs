@@ -16,6 +16,8 @@ namespace CleanArchitecture.Persistance.Configurations
         {
             builder.ToTable("Cars");
             builder.HasKey(c => c.Id);
+            builder.HasIndex(p => p.Name);
+            //Indexleme: Veritabanında arama yaparken hızlı bir şekilde arama yapılmasını sağlar.
         }
     }
 }

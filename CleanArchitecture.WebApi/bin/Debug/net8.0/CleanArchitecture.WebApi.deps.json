@@ -12,6 +12,7 @@
           "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Persistance": "1.0.0",
           "CleanArchitecture.Presentation": "1.0.0",
+          "EntityFrameworkCore.GenericRepository.Nuget": "1.0.2",
           "FluentValidation": "11.9.2",
           "FluentValidation.DependencyInjectionExtensions": "11.9.2",
           "MediatR": "12.3.0",
@@ -31,6 +32,28 @@
           "lib/net6.0/AutoMapper.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.1.0"
+          }
+        }
+      },
+      "EntityFrameworkCore.GenericRepository.Nuget/1.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6"
+        },
+        "runtime": {
+          "lib/net7.0/GenericRepository.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "EntityFrameworkCore.Pagination/7.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6"
+        },
+        "runtime": {
+          "lib/net7.0/EntityFrameworkCorePagination.Nuget.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
           }
         }
       },
@@ -749,6 +772,7 @@
       "CleanArchitecture.Application/1.0.0": {
         "dependencies": {
           "CleanArchitecture.Domain": "1.0.0",
+          "EntityFrameworkCore.Pagination": "7.0.5",
           "FluentValidation": "11.9.2",
           "MediatR": "12.3.0"
         },
@@ -757,6 +781,9 @@
         }
       },
       "CleanArchitecture.Domain/1.0.0": {
+        "dependencies": {
+          "EntityFrameworkCore.GenericRepository.Nuget": "1.0.2"
+        },
         "runtime": {
           "CleanArchitecture.Domain.dll": {}
         }
@@ -766,6 +793,7 @@
           "AutoMapper": "13.0.1",
           "CleanArchitecture.Application": "1.0.0",
           "CleanArchitecture.Domain": "1.0.0",
+          "EntityFrameworkCore.Pagination": "7.0.5",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Npgsql": "8.0.3",
@@ -778,6 +806,8 @@
       "CleanArchitecture.Presentation/1.0.0": {
         "dependencies": {
           "CleanArchitecture.Application": "1.0.0",
+          "CleanArchitecture.Persistance": "1.0.0",
+          "EntityFrameworkCore.Pagination": "7.0.5",
           "MediatR": "12.3.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
@@ -799,6 +829,20 @@
       "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "path": "automapper/13.0.1",
       "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "EntityFrameworkCore.GenericRepository.Nuget/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JlrKF7G25oswewA7qN30H/9RlcWn2EkKsOvjVRpYaS9x6QAoZHQC+yA2yQyIckbU2r/elJdSzako8cD28Z1a5A==",
+      "path": "entityframeworkcore.genericrepository.nuget/1.0.2",
+      "hashPath": "entityframeworkcore.genericrepository.nuget.1.0.2.nupkg.sha512"
+    },
+    "EntityFrameworkCore.Pagination/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tH9UAd7Yz7lrqO7PdYYNL6A4hbJGgBtP9/KJQ3ZB9uD8fQaYLw8KJFeQ0/ZlOKR4O1killwBcI5M/+4n0IGeew==",
+      "path": "entityframeworkcore.pagination/7.0.5",
+      "hashPath": "entityframeworkcore.pagination.7.0.5.nupkg.sha512"
     },
     "FluentValidation/11.9.2": {
       "type": "package",

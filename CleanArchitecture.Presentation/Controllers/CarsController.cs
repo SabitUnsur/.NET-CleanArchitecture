@@ -3,6 +3,7 @@ using CleanArchitecture.Application.Features.CarFeatures.Queries.GetAllCar;
 using CleanArchitecture.Domain.Dtos;
 using CleanArchitecture.Domain.Entities;
 using CleanArchitecture.Presentation.Abstraction;
+using EntityFrameworkCorePagination.Nuget.Pagination;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -27,7 +28,7 @@ namespace CleanArchitecture.Presentation.Controllers
         [HttpPost("[action]")] // POST: api/Cars/GetAll
         public async Task<IActionResult> GetAll(GetAllCarQuery request, CancellationToken cancellationToken)
         {
-            IEnumerable<Car> response = await _mediator.Send(request, cancellationToken);
+            PaginationResult<Car> response = await _mediator.Send(request, cancellationToken);
             return Ok(response);
         }
     }

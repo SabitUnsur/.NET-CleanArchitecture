@@ -141,3 +141,9 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Deb
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\CleanArchitecture.Application.pdb
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\CleanArchitecture.Presentation.pdb
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\GenericRepository.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll

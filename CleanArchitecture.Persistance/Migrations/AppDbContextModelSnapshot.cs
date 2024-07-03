@@ -46,6 +46,8 @@ namespace CleanArchitecture.Persistance.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name");
+
                     b.ToTable("Cars", (string)null);
                 });
 

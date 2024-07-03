@@ -10,3 +10,4 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Domain\obj\Debug
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.AssemblyReference.cache

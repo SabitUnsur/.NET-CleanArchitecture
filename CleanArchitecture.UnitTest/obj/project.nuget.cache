@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7pgJTUrxzZI=",
+  "dgSpecHash": "kPrwuCWfb38=",
   "success": true,
   "projectFilePath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.UnitTest\\CleanArchitecture.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabit\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\entityframeworkcore.genericrepository.nuget\\1.0.2\\entityframeworkcore.genericrepository.nuget.1.0.2.nupkg.sha512",
+    "C:\\Users\\sabit\\.nuget\\packages\\entityframeworkcore.pagination\\7.0.5\\entityframeworkcore.pagination.7.0.5.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\sabit\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

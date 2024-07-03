@@ -14,6 +14,18 @@
           "lib/net7.0/GenericRepository.dll": {}
         }
       },
+      "EntityFrameworkCore.Pagination/7.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5"
+        },
+        "compile": {
+          "lib/net7.0/EntityFrameworkCorePagination.Nuget.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/EntityFrameworkCorePagination.Nuget.dll": {}
+        }
+      },
       "FluentValidation/11.9.2": {
         "type": "package",
         "compile": {
@@ -281,6 +293,20 @@
         "entityframeworkcore.genericrepository.nuget.nuspec",
         "lib/net7.0/GenericRepository.dll",
         "maxresdefault.jpg"
+      ]
+    },
+    "EntityFrameworkCore.Pagination/7.0.5": {
+      "sha512": "tH9UAd7Yz7lrqO7PdYYNL6A4hbJGgBtP9/KJQ3ZB9uD8fQaYLw8KJFeQ0/ZlOKR4O1killwBcI5M/+4n0IGeew==",
+      "type": "package",
+      "path": "entityframeworkcore.pagination/7.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "entityframeworkcore.pagination.7.0.5.nupkg.sha512",
+        "entityframeworkcore.pagination.nuspec",
+        "icon.jpeg",
+        "lib/net7.0/EntityFrameworkCorePagination.Nuget.dll"
       ]
     },
     "FluentValidation/11.9.2": {
@@ -661,6 +687,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "CleanArchitecture.Domain >= 1.0.0",
+      "EntityFrameworkCore.Pagination >= 7.0.5",
       "FluentValidation >= 11.9.2",
       "MediatR >= 12.3.0"
     ]
@@ -719,6 +746,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "EntityFrameworkCore.Pagination": {
+            "target": "Package",
+            "version": "[7.0.5, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[11.9.2, )"
