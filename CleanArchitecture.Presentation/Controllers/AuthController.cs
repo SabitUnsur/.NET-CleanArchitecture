@@ -4,6 +4,7 @@ using CleanArchitecture.Application.Features.AuthFeatures.Commands.Register;
 using CleanArchitecture.Domain.Dtos;
 using CleanArchitecture.Presentation.Abstraction;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace CleanArchitecture.Presentation.Controllers
         {
         }
 
+        [AllowAnonymous]
         [HttpPost("[action]")]
         public async Task<IActionResult> Register(RegisterCommand command)
         {   
@@ -26,6 +28,7 @@ namespace CleanArchitecture.Presentation.Controllers
             return Ok(response);
         }
 
+        [AllowAnonymous]
         [HttpPost("[action]")] // api/auth/login
         public async Task<IActionResult> Login(LoginCommand request,CancellationToken cancellationToken)
         {
