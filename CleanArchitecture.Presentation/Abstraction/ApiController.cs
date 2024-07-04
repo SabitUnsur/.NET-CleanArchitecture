@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 namespace CleanArchitecture.Presentation.Abstraction
 {
     //Bu sınıfı, tüm controllerda aynı kodları tekrar etmemek için oluşturduk.
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [ApiController]
     [Route("api/[controller]")] //bu kodun amacı, bu controller'ın api/values gibi bir endpoint'i olduğunu belirtmek
-    [Authorize(AuthenticationSchemes = "Bearer")]
     public abstract class ApiController : ControllerBase
     {
         //CQRS istek atabilmek için IMediator interface'ini kullanıyoruz.

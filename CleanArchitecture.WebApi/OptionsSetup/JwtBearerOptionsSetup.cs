@@ -23,10 +23,10 @@ namespace CleanArchitecture.WebApi.OptionsSetup
             options.TokenValidationParameters.ValidateIssuer = true;
             options.TokenValidationParameters.ValidateAudience = true;
             options.TokenValidationParameters.ValidateLifetime = true;
-            options.TokenValidationParameters.ValidateIssuerSigningKey = true;
+            options.TokenValidationParameters.ValidateIssuerSigningKey = true; 
             options.TokenValidationParameters.ValidIssuer = _jwtOptions.Issuer;
             options.TokenValidationParameters.ValidAudience = _jwtOptions.Audience;
             options.TokenValidationParameters.IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtOptions.SecretKey));
         }
     }
-}
+}   
