@@ -14,10 +14,10 @@ namespace CleanArchitecture.Application.Features.AuthFeatures.Commands.Register
             RuleFor(p=>p.Email).NotEmpty().EmailAddress();
             RuleFor(p=>p.UserName).NotEmpty().NotNull().MinimumLength(3).WithMessage("At least 3 character");
             RuleFor(p=>p.Password).NotEmpty().NotNull().WithMessage("NOT NULL");
-            RuleFor(p=>p.Password).Matches("[A-Z]").WithMessage("At least one uppercase letter")
+            RuleFor(p => p.Password).Matches("[A-Z]").WithMessage("At least one uppercase letter")
                 .Matches("[a-z]").WithMessage("At least one lowercase letter")
                 .Matches("[0-9]").WithMessage("At least one digit")
-                .Matches("[^a-zA-Z0-9]").WithMessage("At least one special character")
+                .Matches("[^a-zA-Z0-9]").WithMessage("At least one special character");
         }
     }
 }

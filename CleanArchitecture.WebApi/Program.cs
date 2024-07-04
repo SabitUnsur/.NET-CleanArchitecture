@@ -11,7 +11,9 @@ using FluentValidation;
 using GenericRepository;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore; // Add this using directive
+using Microsoft.EntityFrameworkCore;
+using System.Net;
+using System.Net.Mail; // Add this using directive
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,13 +23,17 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork<AppDbContext>>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICarRepository, CarRepository>();
 builder.Services.AddAutoMapper(typeof(CleanArchitecture.Persistance.AssemblyReference).Assembly);
-
+builder.Services.AddSingleton(new SmtpClient("sabitunsur@gmail.com")
+{
+    Credentials = new NetworkCredential("username", "password"),
+    EnableSsl = true
+});
 builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseNpgsql(builder.Configuration.GetConnectionString("SqlConnection"));
 });
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 builder.Services.AddIdentity<User,IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
-    
+
 // Add services to the container.
 builder.Services.AddControllers()
     .AddApplicationPart(typeof(AssemblyReference).Assembly);

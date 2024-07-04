@@ -15,10 +15,12 @@ namespace CleanArchitecture.Persistance.Services
     {
         private readonly UserManager<User> _userManager;
         private readonly IMapper _mapper;
-        public AuthService(UserManager<User> userManager, IMapper mapper)
+        private readonly IMailService _mailService;
+        public AuthService(UserManager<User> userManager, IMapper mapper, IMailService mailService)
         {
             _userManager = userManager;
             _mapper = mapper;
+            _mailService = mailService;
         }
 
         public async Task RegisterAsync(RegisterCommand request)
@@ -27,8 +29,12 @@ namespace CleanArchitecture.Persistance.Services
             IdentityResult result =  await _userManager.CreateAsync(user, request.Password);
             if(!result.Succeeded)
             {
-                throw new Exception("User Creation Failed!");
+                throw new Exception(result.Errors.First().Description);
             }
+            List<string> emails = new();
+            emails.Add(request.Email);
+            string body = "Please click the link below to verify your email address";
+            await _mailService.SendMailAsync(emails.First(), "Mail Verification", body);
         }
     }
 }

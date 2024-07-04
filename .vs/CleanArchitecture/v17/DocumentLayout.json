@@ -7,32 +7,20 @@
       "RelativeMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\features\\carfeatures\\commands\\createcar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\carfeatures\\commands\\createcar\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C84C50A7-D845-4A96-8BB1-4C1270CC5304}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C84C50A7-D845-4A96-8BB1-4C1270CC5304}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DA1DB1-0509-4D41-A34C-F23A8609339D}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\features\\authfeatures\\commands\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,101 +40,58 @@
               "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
               "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:18:29.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\AuthService.cs",
-              "RelativeToolTip": "CleanArchitecture.Persistance\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:12:05.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateCarCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandHandler.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandHandler.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Features\\CarFeatures\\Commands\\CreateCar\\CreateCarCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:10:07.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:08:49.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:07:37.919Z",
+              "WhenOpened": "2024-07-03T15:46:06.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAdAAAA",
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\CarService.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Services\\CarService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:02:20.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T15:45:37.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "CleanArchitecture.Persistance\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBkAAAA5AAAA",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T14:59:31.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T15:45:32.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "CleanArchitecture.Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "DocumentIndex": 3,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T14:58:07.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T15:45:25.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandValidator.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandValidator.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandValidator.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Features\\AuthFeatures\\Commands\\Register\\RegisterCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T15:45:24.641Z"
             }
           ]
         }
