@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CleanArchitecture.Application.Abstractions;
+using CleanArchitecture.Application.Features.AuthFeatures.Commands.CreateNewTokenByRefreshToken;
 using CleanArchitecture.Application.Features.AuthFeatures.Commands.Login;
 using CleanArchitecture.Application.Features.AuthFeatures.Commands.Register;
 using CleanArchitecture.Application.Services;
@@ -56,6 +57,25 @@ namespace CleanArchitecture.Persistance.Services
             }
            
             LoginCommandResponse response = await _jwtProvider.CreateTokenAsync(user.Result);
+            return response;
+        }
+
+        //BU metodun yazılma sebebi, kullanıcının token süresi dolunca refresh token ile yeni bir token alabilmesi için yazılmıştır.
+        public async Task<LoginCommandResponse> CreateTokenByRefreshTokenAsync(CreateNewTokenByRefreshTokenCommand request, CancellationToken cancellationToken)
+        {
+            var user = await _userManager.Users.Where(x => x.RefreshToken == request.RefreshToken).FirstOrDefaultAsync(cancellationToken);
+
+            if(user?.RefreshToken == request.RefreshToken)
+            {
+                throw new Exception("refresh token is invalid.");
+            }
+
+            if(user?.RefreshTokenExpires < DateTime.Now)
+            {
+                throw new Exception("refresh token is expired.");
+            }
+
+            LoginCommandResponse response = await _jwtProvider.CreateTokenAsync(user);
             return response;
         }
     }
