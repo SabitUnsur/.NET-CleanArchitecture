@@ -7,6 +7,7 @@ using CleanArchitecture.Persistance.Repositories;
 using CleanArchitecture.Persistance.Services;
 using CleanArchitecture.Presentation;
 using CleanArchitecture.WebApi.Middleware;
+using CleanArchitecture.WebApi.OptionsSetup;
 using FluentValidation;
 using GenericRepository;
 using MediatR;
@@ -28,6 +29,10 @@ builder.Services.AddSingleton(new SmtpClient("sabitunsur@gmail.com")
     Credentials = new NetworkCredential("username", "password"),
     EnableSsl = true
 });
+builder.Services.ConfigureOptions<JwtOptionsSetup>();
+builder.Services.ConfigureOptions<JwtBearerOptionsSetup>();
+builder.Services.AddAuthentication().AddJwtBearer();
+
 builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseNpgsql(builder.Configuration.GetConnectionString("SqlConnection"));
 });
