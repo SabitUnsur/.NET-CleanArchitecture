@@ -6,6 +6,7 @@ using System.Text;
 
 namespace CleanArchitecture.WebApi.OptionsSetup
 {
+    //Bu sınıfın amacı JwtBearerOptions nesnesini set etmektir.
     public sealed class JwtBearerOptionsSetup : IPostConfigureOptions<JwtBearerOptions>
     {
         private readonly JwtOptions _jwtOptions;

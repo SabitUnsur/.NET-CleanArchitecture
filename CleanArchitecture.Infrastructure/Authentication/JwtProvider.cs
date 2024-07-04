@@ -1,5 +1,7 @@
 ﻿using CleanArchitecture.Application.Abstractions;
+using CleanArchitecture.Application.Features.AuthFeatures.Commands.Login;
 using CleanArchitecture.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -7,6 +9,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,13 +18,15 @@ namespace CleanArchitecture.Infrastructure.Authentication
     public sealed class JwtProvider : IJwtProvider
     {
         private readonly JwtOptions _jwtOptions;
+        private readonly UserManager<User> _userManager;
 
-        public JwtProvider(IOptions<JwtOptions> jwtOptions)
+        public JwtProvider(IOptions<JwtOptions> jwtOptions, UserManager<User> userManager)
         {
             _jwtOptions = jwtOptions.Value;
+            _userManager = userManager;
         }
 
-        public string CreateToken(User user)
+        public  async Task<LoginCommandResponse> CreateTokenAsync(User user)
         {
             var claims = new List<Claim>
             {
@@ -40,8 +45,15 @@ namespace CleanArchitecture.Infrastructure.Authentication
              );
 
             string token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
-            
-            return token;
+
+            string refreshToken = Convert.ToBase64String(RandomNumberGenerator.GetBytes(32)); //refresh token oluşturuluyor
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpires = jwtSecurityToken.ValidTo.AddMinutes(5); //refresh token'ın ne kadar süre geçerli olacağı
+            await _userManager.UpdateAsync(user);
+
+            LoginCommandResponse response = new(token, refreshToken,user.RefreshTokenExpires, user.Id, user.UserName, user.Email);
+
+            return response;
         }
     }
 }

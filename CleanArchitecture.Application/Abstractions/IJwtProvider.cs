@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Domain.Entities;
+﻿using CleanArchitecture.Application.Features.AuthFeatures.Commands.Login;
+using CleanArchitecture.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace CleanArchitecture.Application.Abstractions
 {
     public interface IJwtProvider
     {
-        string CreateToken(User user);
+        Task<LoginCommandResponse> CreateTokenAsync(User user);
     }
 }

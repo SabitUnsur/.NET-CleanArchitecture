@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 
 namespace CleanArchitecture.WebApi.OptionsSetup
 {
+    //Bu sınıf JwtOptions nesnesini appsettings.json dosyasındaki Jwt alanındaki değerlerle doldurmak için kullanılır.
     public sealed class JwtOptionsSetup : IConfigureOptions<JwtOptions>
     { private readonly IConfiguration _configuration;
 
