@@ -51,7 +51,7 @@ namespace CleanArchitecture.Infrastructure.Authentication
             user.RefreshTokenExpires = jwtSecurityToken.ValidTo.AddMinutes(5); //refresh token'ın ne kadar süre geçerli olacağı
             await _userManager.UpdateAsync(user);
 
-            LoginCommandResponse response = new(token, refreshToken,user.RefreshTokenExpires, user.Id, user.UserName, user.Email);
+            LoginCommandResponse response = new(token, refreshToken,user.RefreshTokenExpires, user.Id);
 
             return response;
         }

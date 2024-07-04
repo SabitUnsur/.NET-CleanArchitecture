@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Application.Features.AuthFeatures.Commands.Register;
+﻿using CleanArchitecture.Application.Features.AuthFeatures.Commands.Login;
+using CleanArchitecture.Application.Features.AuthFeatures.Commands.Register;
 using CleanArchitecture.Domain.Dtos;
 using CleanArchitecture.Presentation.Abstraction;
 using MediatR;
@@ -21,6 +22,13 @@ namespace CleanArchitecture.Presentation.Controllers
         public async Task<IActionResult> Register(RegisterCommand command)
         {   
             MessageResponse response = await _mediator.Send(command);
+            return Ok(response);
+        }
+
+        [HttpPost("[action]")] // api/auth/login
+        public async Task<IActionResult> Login(LoginCommand request,CancellationToken cancellationToken)
+        {
+            LoginCommandResponse response = await _mediator.Send(request,cancellationToken);
             return Ok(response);
         }
     }

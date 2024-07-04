@@ -1,7 +1,9 @@
+using CleanArchitecture.Application.Abstractions;
 using CleanArchitecture.Application.Behaviors;
 using CleanArchitecture.Application.Services;
 using CleanArchitecture.Domain.Entities;
 using CleanArchitecture.Domain.Repositories;
+using CleanArchitecture.Infrastructure.Authentication;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Repositories;
 using CleanArchitecture.Persistance.Services;
@@ -21,6 +23,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddTransient<ExceptionMiddleware>();
 builder.Services.AddScoped<ICarService, CarService>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork<AppDbContext>>();
+builder.Services.AddScoped<IJwtProvider, JwtProvider>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICarRepository, CarRepository>();
 builder.Services.AddAutoMapper(typeof(CleanArchitecture.Persistance.AssemblyReference).Assembly);

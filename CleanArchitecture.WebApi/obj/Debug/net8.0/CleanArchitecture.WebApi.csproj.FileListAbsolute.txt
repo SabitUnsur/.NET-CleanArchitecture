@@ -125,3 +125,17 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\GenericEmailService.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\MailKit.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\MimeKit.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Infrastructure.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Infrastructure.pdb

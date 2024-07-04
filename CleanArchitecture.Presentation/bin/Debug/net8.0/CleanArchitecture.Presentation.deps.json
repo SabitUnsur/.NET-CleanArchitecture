@@ -928,6 +928,7 @@
       "CleanArchitecture.Domain/1.0.0": {
         "dependencies": {
           "EntityFrameworkCore.GenericRepository.Nuget": "1.0.2",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.6"
         },
         "runtime": {
