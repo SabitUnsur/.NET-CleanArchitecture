@@ -41,6 +41,14 @@ builder.Services.ConfigureOptions<JwtOptionsSetup>();
 builder.Services.ConfigureOptions<JwtBearerOptionsSetup>();
 builder.Services.AddAuthentication().AddJwtBearer();
 builder.Services.AddAuthorization();
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy=>policy
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+     .AllowAnyHeader()
+     .AllowCredentials());
+});
 
 builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseNpgsql(builder.Configuration.GetConnectionString("SqlConnection"));
@@ -97,6 +105,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseMiddlewareExtensions();
 

@@ -16,3 +16,5 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Presentation\bin
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Presentation\bin\Debug\net8.0\CleanArchitecture.Application.pdb
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Presentation\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net8.0\CleanArc.3F3C2AE5.Up2Date
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Presentation\bin\Debug\net8.0\CleanArchitecture.Infrastructure.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.Presentation\bin\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
