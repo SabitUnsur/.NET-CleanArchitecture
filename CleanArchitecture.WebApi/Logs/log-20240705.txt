@@ -1,0 +1,28 @@
+2024-07-05 17:02:42.196 +03:00 [INF] User profile is available. Using 'C:\Users\sabit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:05:24.140 +03:00 [INF] User profile is available. Using 'C:\Users\sabit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:06:21.632 +03:00 [INF] User profile is available. Using 'C:\Users\sabit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:06:21.784 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-07-05 17:06:21.813 +03:00 [INF] Now listening on: https://localhost:7212
+2024-07-05 17:06:21.814 +03:00 [INF] Now listening on: http://localhost:5058
+2024-07-05 17:06:21.816 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:06:21.817 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:06:21.818 +03:00 [INF] Content root path: C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi
+2024-07-05 17:06:22.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/swagger - null null
+2024-07-05 17:06:22.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/swagger - 301 0 null 77.0987ms
+2024-07-05 17:06:22.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/swagger/index.html - null null
+2024-07-05 17:06:22.576 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/swagger/index.html - 200 null text/html;charset=utf-8 61.7026ms
+2024-07-05 17:06:22.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/swagger/swagger-ui.css - null null
+2024-07-05 17:06:22.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/swagger/swagger-ui-bundle.js - null null
+2024-07-05 17:06:22.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:06:22.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/swagger/swagger-ui-standalone-preset.js - null null
+2024-07-05 17:06:22.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 28.4405ms
+2024-07-05 17:06:22.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/_vs/browserLink - null null
+2024-07-05 17:06:22.663 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-05 17:06:22.663 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-05 17:06:22.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 62.17ms
+2024-07-05 17:06:22.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/swagger/swagger-ui.css - 200 143943 text/css 64.8701ms
+2024-07-05 17:06:22.672 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-05 17:06:22.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 74.256ms
+2024-07-05 17:06:22.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.3634ms
+2024-07-05 17:06:22.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7212/swagger/v1/swagger.json - null null
+2024-07-05 17:06:22.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7212/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.4865ms

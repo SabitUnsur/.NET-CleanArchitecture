@@ -139,3 +139,14 @@ C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Infrastructure.dll
 C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\sabit\source\repos\CleanArchitecture\CleanArchitecture.WebApi\bin\Debug\net8.0\Serilog.Sinks.PostgreSQL.dll

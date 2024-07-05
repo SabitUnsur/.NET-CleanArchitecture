@@ -6,15 +6,15 @@ namespace CleanArchitecture.WebApi.Configurations
 {
     public sealed class PresentationServiceInstaller : IServiceInstaller
     {
-        public void Install(IServiceCollection services, IConfiguration configuration)
+        public void Install(IServiceCollection services, IConfiguration configuration,IHostBuilder host)
         {
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(policy => policy
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                 .AllowAnyHeader()
-                 .AllowCredentials());
+                .AllowAnyHeader()
+                .AllowAnyMethod()     
+                .AllowCredentials()
+                .SetIsOriginAllowed(policy=>true));
             });
 
 
