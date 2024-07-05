@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.presentation\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\optionssetup\\jwtbeareroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\optionssetup\\jwtbeareroptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.presentation\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.presentation\\abstraction\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFB8ADFA-DF60-4B40-9930-FA4E01E0A744}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\abstraction\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistance\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EECE50-7640-4E33-910A-06FB2A149CE8}|CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj|solutionrelative:cleanarchitecture.persistance\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96CADA20-1B77-48AD-9D74-EAD07E0A7606}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\sabit\\source\\repos\\cleanarchitecture\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,58 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\appsettings.json",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-04T11:19:28.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JwtBearerOptionsSetup.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\OptionsSetup\\JwtBearerOptionsSetup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:15:20.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:14:59.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApiController.cs",
-              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Abstraction\\ApiController.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Abstraction\\ApiController.cs",
-              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Abstraction\\ApiController.cs",
-              "RelativeToolTip": "CleanArchitecture.Presentation\\Abstraction\\ApiController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Title": "UserRoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Configurations\\UserRoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Configurations\\UserRoleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:11:44.575Z",
+              "WhenOpened": "2024-07-05T11:52:59.535Z",
               "EditorCaption": ""
             },
             {
@@ -92,9 +53,48 @@
               "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.WebApi\\Program.cs",
               "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAowGcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:02:42.804Z",
+              "WhenOpened": "2024-07-05T11:52:49.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRolesController.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\UserRolesController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\UserRolesController.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\UserRolesController.cs",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\UserRolesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T11:42:15.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\UserRoleService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Persistance\\Services\\UserRoleService.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistance\\Services\\UserRoleService.cs",
+              "RelativeToolTip": "CleanArchitecture.Persistance\\Services\\UserRoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T11:00:54.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Presentation\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T10:38:05.854Z",
               "EditorCaption": ""
             }
           ]
