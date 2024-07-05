@@ -33,7 +33,7 @@ namespace CleanArchitecture.Infrastructure.Authentication
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
-            };
+            }; //tokenda taşınacak bilgiler
 
             JwtSecurityToken jwtSecurityToken = new(
              issuer: _jwtOptions.Issuer,

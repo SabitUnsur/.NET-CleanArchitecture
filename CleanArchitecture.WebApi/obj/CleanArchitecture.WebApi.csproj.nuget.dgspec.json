@@ -390,6 +390,9 @@
             "projectReferences": {
               "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
                 "projectPath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              },
+              "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\sabit\\source\\repos\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
               }
             }
           }
